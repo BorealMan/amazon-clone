@@ -1,0 +1,68 @@
+.subheader {
+  display: flex;
+  background-color: #232f3e;
+  border-top: 3px solid #232f3e;
+  border-bottom: 2px solid #232f3e;
+  position: sticky;
+  top: 60px;
+  z-index: 100;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.subheader__greet {
+  display: flex;
+  color: white;
+  margin-left: 4px;
+  margin-right: 40px;
+}
+
+.subheader__deliver {
+  font-size: 12px;
+}
+
+.subheader__address {
+  font-size: 14px;
+  margin-top: -4px;
+}
+
+.subheader__locIcon {
+  padding: 4px;
+  font-size: 1.4rem;
+}
+
+.heading {
+  color: white;
+  font-size: 14px;
+}
+
+.subheader__headings {
+  display: flex;
+  line-height: 1;
+  vertical-align: center;
+  margin-top: 8px;
+}
+
+.heading {
+  margin-left: 5px;
+  margin-right: 22px;
+  font-size: 14px;
+}
+
+.subheader__arrowdropdown {
+  color: #dddddd;
+  margin-left: -25px;
+  margin-top: -3px;
+  max-height: 20px;
+}
+
+.browserhistory {
+  display: flex;
+}
+
+.subheader__endingtext {
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+  margin-left: 5px;
+}

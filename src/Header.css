@@ -1,0 +1,86 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131321;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 8px;
+  margin-right: 30px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 93%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 18px;
+  color: white;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.optionLineOne {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.1rem;
+  height: 2.5em;
+  padding: 2px;
+}
+
+.header__basketCount {
+  margin-left: 8px;
+  margin-right: 20px;
+  margin-top: 0px;
+  color: #e78305;
+}
+
+.header__burgermenu {
+  color: white;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 4px;
+  font-size: 1.7rem;
+}
