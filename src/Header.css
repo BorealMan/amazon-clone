@@ -27,7 +27,7 @@
   height: 12px;
   padding: 10px;
   border: none;
-  width: 93%;
+  width: 95%;
 }
 
 .header__searchIcon {
@@ -46,8 +46,7 @@
 
 .header__nav {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 10px;
+  justify-content: space-between;
 }
 
 .optionLineOne {
